@@ -19,6 +19,7 @@ description: > # this means to ignore newlines until "baseurl:"
 # Includes an icon in the footer for each username you enter
 baseurl: ""
 footer-links:
+  email: leandroogh@gmail.com
   github: leandroohf
   linkedin: leandroohf
 
