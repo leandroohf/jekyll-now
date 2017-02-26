@@ -1,11 +1,5 @@
 # Leandro homepage
 
-[leandrohf](http://leandroohf.github.io)
+GitHub pages wrtten using Jekyll static site genereator
 
-# Jekyll Now
-
-# Quick Start
-
-# Step 1) Fork Jekyll Now to your User Repository
-
-
+ Work in  progress **WIP*
