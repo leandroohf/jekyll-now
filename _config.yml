@@ -77,5 +77,3 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
-
-include: ['_pages']
