@@ -1,0 +1,31 @@
+
+
+* Leandro homepage
+
+  GitHub pages written using Jekyll static site genereator
+
+  Work in  progress *WIP*
+
+* Automated system
+** Run the jekyll locally for development
+
+   Estou com problema na instalacao do jekyll por conta do ruby. 
+
+   Funcionou da primeria vez. Acredito 1 qdo eu clonei no github.io eu
+   devo perdido algum file de configuracao. Revre isto depois
+
+   #+begin_src sh
+     GIT_HUB ~/Documents/leandroohf.github.io/
+     cd $GITHB_PAGE
+
+     # Duplicate your _config.yml and call it _config_dev.yml.
+     # Leave the _config_dev.yml as is, and change _config.yml for the live site.
+     # url: "http://leandroohf.github.io"
+
+     # It will load the information from the dev config.
+     jekyll serve --config _config.yml,_config_dev.yml
+
+     ## http://localhost:4000
+
+   #+end_src
+
