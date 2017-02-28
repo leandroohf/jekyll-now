@@ -7,6 +7,14 @@ permalink: /projects/
 
 # Speaker recognition
 
+
+# Crop Recogntion
+
+
+# Crop date determination
+
+# Wrinkle Analysis
+
 # RAoP
 
 # Kaggle Liberty
