@@ -74,7 +74,6 @@ The next picture is the image formed in the retina of the schematic
 eye model where the in-vivo cornea has **ceratocone** and health
 cornea.
 
-![Lena_a]({{ site.baseurl }}/images/lena_normal.png "Lena Normal")
+![Lena_a]({{ site.baseurl }}/images/lena_normal.png "Lena Normal" =150x150)
 
-![Lena_b]({{ site.baseurl }}/images/lena_ceratocone.png "Lena Ceratocone")
-
+![Lena_b]({{ site.baseurl }}/images/lena_ceratocone.png "Lena Ceratocone" =100x100)
