@@ -16,7 +16,7 @@ voice separation, and silence removal algorithms (Matlab) for
 Automatic Speaker Recognition (verification task) project that aims to
 recognize people by voice. The project was sold to Start-up
 
-# Crop Recogntion and Crop date determination
+# Crop Recognition and Crop date determination
 
 Crop Recognition and Automatic Determination of the Planting Date
 project which analyzes satellite images in order to determine planting
@@ -71,4 +71,9 @@ algorithm is used to form a retinal image of the object in the scene
 ![Veye_b]({{ site.baseurl }}/images/proj_cone_b.png "virtual eye B")
 
 The next picture is the image formed in the retina of the schematic
-eye model where the in-vivo cornea has **ceratocone**.
+eye model where the in-vivo cornea has **ceratocone** and health
+cornea.
+
+![Lena_a]({{ site.baseurl }}/images/lena_normal.png "Lena Normal")
+
+![Lena_b]({{ site.baseurl }}/images/lena_ceratocone.png "Lena Certaocone")
