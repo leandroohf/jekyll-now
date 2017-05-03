@@ -46,17 +46,18 @@ attenuation algorithm.
 # Virtual Eye (VEye)
 
 Project developed during my MSc. I developed a computational framework
-in C++ capable to reproduce the optical and physiological phenomena of
-the human visual system. To accomplish that, I worked by manipulating
-3d meshes using algorithms such as "door-in doo-out", developed
-realistic ray traces algorithms and schematics models of the human eye
-was built and in addition in-vivo data obtained from corneal
+in C++ capable to reproduce the optical properties and physiological
+phenomena of the human visual system. To accomplish that, I worked by
+manipulating 3d meshes using algorithms such as "door-in doo-out",
+developed realistic ray traces algorithms and schematics models of the
+human eye was built and in addition in-vivo data obtained from corneal
 topography machine was introduced in these models allowing the
 framework to determine optical properties of real cornea's topologies
-such as power and high order aberrations using Zernike’s
-polynomials. The obtained results agree with related work in
-literature and simulations with in-vivo data are according with the
-results produced by a commercial wave-front device.
+such as dipotry power, high order aberrations using Zernike’s
+polynomials and Point spread function (PSF) using Fourier
+transform. The obtained results agree with related work in literature
+and simulations with in-vivo data are according with the results
+produced by a commercial wave-front device.
 
 You can find my thesis
 [here.](http://www.teses.usp.br/teses/disponiveis/55/55134/tde-09052008-161636/en.php)
