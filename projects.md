@@ -43,7 +43,7 @@ attenuation algorithm.
 
 # Kaggle Liberty
 
-# Virtual Eye
+# Virtual Eye (VEye)
 
 Project developed during my MSc. I developed a computational framework
 in C++ capable to reproduce the optical and physiological phenomena of
@@ -58,15 +58,17 @@ polynomials. The obtained results agree with related work in
 literature and simulations with in-vivo data are according with the
 results produced by a commercial wave-front device.
 
-
-
 You can find my thesis
 [here.](http://www.teses.usp.br/teses/disponiveis/55/55134/tde-09052008-161636/en.php)
 
 
-The images below illustrate a simulation using the framework where the
-Lena's image is formed in the retina of the schematic eye.
+The images below illustrate VEye's simulation where ray trace
+algorithm is used to form a retinal image of the object in the scene
+(Lena's image) in a schematic eye model.
 
-![Veye_a]({{ site.baseurl }}/images/proj_cone_a.png "virtual eye")
-![Veye_b]({{ site.baseurl }}/images/proj_cone_b.png "virtual eye")
+![Veye_a]({{ site.baseurl }}/images/proj_cone_a.png "virtual eye A")
 
+![Veye_b]({{ site.baseurl }}/images/proj_cone_b.png "virtual eye B")
+
+The next picture is the image formed in the retina of the schematic
+eye model where the in-vivo cornea has **ceratocone**.
