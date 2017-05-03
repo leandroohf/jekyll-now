@@ -45,14 +45,26 @@ attenuation algorithm.
 
 # Virtual Eye
 
+Project developed during my MSc. I develped a computational framework
+in C++ capable to reproduce the optical and physiological phenomena of
+the human visual system. To accomplish that, I worked by manipulating
+3d meshes using algorithms such as "door-in doo-out", developed
+realistc ray traces algorithms and schematics models of the eye was
+built and in addition in-vivo data obtained from corneal topography
+machine was introduced in these models allowing tthe framework
+determine optical properties of real Cornea topologies and determine
+high order abberations for individuals. 
+
+
 The increase in performance of the modern computers has driven
 scientific work in the areas of computer simulation. Many authors use
 in their research commercial tools that use embedding algorithms,
 which sources are not provided, and it makes harder and sometimes
 impossible, the development of novel theories or experiments. This
-work explores this gap left for those authors. We present a
-computational framework capable to reproduce the optical and
-physiological phenomena of the human visual system. We construct
+work explores this gap left for those authors.
+
+We present a computational framework capable to reproduce the optical
+and physiological phenomena of the human visual system. We construct
 schematical models of the human eye from quadrics surfaces and
 consider an algorithm of realistic ray tracing. Afterward, we
 performed a study on schematics models and in addition we introduce,
@@ -67,7 +79,12 @@ ophthalmology, besides assisting the understanding of biological
 visual systems, it also helps the development of artificial vision
 systems and the designing of optical systems
 
-[http://www.teses.usp.br/teses/disponiveis/55/55134/tde-09052008-161636/en.php](tehsis)
+You can find my thesis
+[here.](http://www.teses.usp.br/teses/disponiveis/55/55134/tde-09052008-161636/en.php)
+
+The images bellow ilutrade a simulation using the framework where the
+Lena's image is formed in the retina of the schematic eye.
 
 ![Veye]({{ site.baseurl }}/images/proj_cone_a.png "virtual eye")
+![Veye]({{ site.baseurl }}/images/proj_cone_b.png "virtual eye")
 
