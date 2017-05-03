@@ -66,9 +66,10 @@ The images below illustrate VEye's simulation where ray trace
 algorithm is used to form a retinal image of the object in the scene
 (Lena's image) in a schematic eye model.
 
-![Veye_a]({{ site.baseurl }}/images/proj_cone_a.png "virtual eye A")
 
-![Veye_b]({{ site.baseurl }}/images/proj_cone_b.png "virtual eye B")
+<img src="{{ site.baseurl }}/images/proj_cone_a.png" alt="Virtual eye: ray trace" width="500" height="500">
+
+<img src="{{ site.baseurl }}/images/proj_cone_b.png" alt="Virtual eye: ray trace lateral view" width="400" height="400">
 
 The next picture is the image formed in the retina of the schematic
 eye model where the in-vivo cornea has **ceratocone** and health
