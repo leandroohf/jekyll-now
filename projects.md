@@ -69,5 +69,5 @@ systems and the designing of optical systems
 
 [http://www.teses.usp.br/teses/disponiveis/55/55134/tde-09052008-161636/en.php](tehsis)
 
-![Veye](https://leandroohf.github.io/images/jekyll-logo.png "virtual eye")
+![Veye]({{ site.baseurl }}/images/jekyll-logo.png "virtual eye")
 
