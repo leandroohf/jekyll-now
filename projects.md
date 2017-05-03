@@ -76,4 +76,5 @@ cornea.
 
 ![Lena_a]({{ site.baseurl }}/images/lena_normal.png "Lena Normal")
 
-![Lena_b]({{ site.baseurl }}/images/lena_ceratocone.png "Lena Certaocone")
+![Lena_b]({{ site.baseurl }}/images/lena_ceratocone.png "Lena Ceratocone")
+
