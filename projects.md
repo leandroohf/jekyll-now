@@ -76,7 +76,6 @@ eye model where the in-vivo cornea has **ceratocone** and health
 cornea.
 
 
-<img src="{{ site.baseurl }}/images/lena_normal.png" alt="Lena normal" width="500" height="500">
+<img src="{{ site.baseurl }}/images/lena_normal.png" alt="Lena normal" width="400" height="400">
 
-<img src="{{ site.baseurl }}/images/lena_ceratocone.png" alt="Lena normal" width="500" height="500">
-
+<img src="{{ site.baseurl }}/images/lena_ceratocone.png" alt="Lena normal" width="400" height="400">
