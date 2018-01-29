@@ -19,14 +19,15 @@ recognize people by voice. The project was sold to Start-up
 # Crop Recognition and Crop date determination
 
 Crop Recognition and Automatic Determination of the Planting Date
-project which analyzes satellite images in order to determine planting
-dates and the crops planted in producing regions.
+project (developed in **IDL**) which analyzes satellite images in
+order to determine planting dates and the crops planted in producing
+regions.
 
 # Wrinkle Analysis
 
-I developed an image processing algorithm to extract facial
-wrinkles. A score was attributed to the wrinkles and these data were
-correlated with medical data in order to determine skin age.
+I developed an image processing algorithm (**C, OpenCv**)to extract
+facial wrinkles. A score was attributed to the wrinkles and these data
+were correlated with medical data in order to determine skin age.
 
 It was a marketing project that was being developed for a cosmetic
 company to recommend products to their clients based on their skin
@@ -37,7 +38,7 @@ age.
 Magnetic noise attenuation system: In this project, I designed a
 compensation coil in order to reduce magnetic noise in magnetic
 resonance scanner room. Also, I worked on the implementation of the
-attenuation algorithm.
+attenuation algorithm (C) deployed in **DSPIC**.
 
 # RAoP
 
