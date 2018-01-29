@@ -41,6 +41,18 @@ attenuation algorithm.
 
 # RAoP
 
+**This is a work in progress**
+
+In this project data from online community Random Act of Pizza
+([RAoP](https://www.reddit.com/r/Random_Acts_Of_Pizza/)) forum was
+analyzed. The data is a collection of post where reddit's users are
+requesting free pizza. Sentimental analyses were performed in the data
+and the findings were used to build a model to predict if the post
+written by the user will be successful. The link for the analysis can
+be found
+[here](https://github.com/leandroohf/raop/blob/master/README.md) and a
+better explanation with more detail can be found in the links below.
+
 # Kaggle Liberty
 
 # Virtual Eye (VEye)
