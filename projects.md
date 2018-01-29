@@ -79,21 +79,18 @@ produced by a commercial wave-front device.
 You can find my thesis
 [here.](http://www.teses.usp.br/teses/disponiveis/55/55134/tde-09052008-161636/en.php)
 
-
 The images below illustrate VEye's simulation where ray trace
 algorithm is used to form a retinal image of the object in the scene
 (Lena's image) in a schematic eye model.
 
+<img src="{{ site.baseurl }}/images/proj_cone_a.png" alt="Virtual eye: ray trace" width="200" height="200">
 
-<img src="{{ site.baseurl }}/images/proj_cone_a.png" alt="Virtual eye: ray trace">
-
-<img src="{{ site.baseurl }}/images/proj_cone_b.png" alt="Virtual eye: ray trace lateral view">
+<img src="{{ site.baseurl }}/images/proj_cone_b.png" alt="Virtual eye: ray trace lateral view" width="200" height="200">
 
 The next picture is the image formed in the retina of the schematic
 eye model where the in-vivo cornea has **ceratocone** and health
 cornea.
 
+<img src="{{ site.baseurl }}/images/lena_normal.png" alt="Lena normal" width="200" height="200">
 
-<img src="{{ site.baseurl }}/images/lena_normal.png" alt="Lena normal" width="400" height="400">
-
-<img src="{{ site.baseurl }}/images/lena_ceratocone.png" alt="Lena normal" width="400" height="400">
+<img src="{{ site.baseurl }}/images/lena_ceratocone.png" alt="Lena normal" width="200" height="200">
