@@ -34,10 +34,10 @@ below. org-bable will create a session that can be used in the next
 necessary steps
 
 ```
-    #+begin_src sh 
-      scp -pr -i ~/demo_server.pem utils.py  USER@HOST:/home/user/project/
-      echo "done"
-    #+end_src
+#+begin_src sh 
+  scp -pr -i ~/demo_server.pem utils.py  USER@HOST:/home/user/project/
+  echo "done"
+#+end_src
 ```
 
 ## Create seesion in the remote machine
@@ -45,43 +45,48 @@ necessary steps
 ### Create a session in the remote machine
 
 ```
-         #+begin_src sh :session *deploy*  :results output
-           ## ssh to the server
-           ssh -i ~/demo_server.pem USER@HOST
-         #+end_src
+
+#+begin_src sh :session *deploy*  :results output
+  ## ssh to the server
+  ssh -i ~/demo_server.pem USER@HOST
+#+end_src
 
 ```
 
 ### Create folders
 
 ```
-         #+begin_src sh :session *delploy* :results output
-            mkdir -p ~/data
-         #+end_src
+
+#+begin_src sh :session *delploy* :results output
+   mkdir -p ~/data
+#+end_src
 
 ```
 
 ### Install requirments
 
 ```
-   #+begin_src sh :session *deploy* :results output
-     pip install REQUIREMENT
-   #+end_src
+
+#+begin_src sh :session *deploy* :results output
+  pip install REQUIREMENT
+#+end_src
+
 ```
 
 ### Exit session
 
 
 ```
-     #+begin_src sh :session *deploy*  :results output
-       exit
-     #+end_src
+
+#+begin_src sh :session *deploy*  :results output
+  exit
+#+end_src
 
 ```
 
 ## Get shell in remote machine
 
-Define function to run remote shell
+Define function to run remote shell 
 
 ```
    #+begin_src emacs-lisp
