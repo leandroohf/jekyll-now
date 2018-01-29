@@ -55,6 +55,11 @@ better explanation with more detail can be found in the links below.
 
 # Kaggle Liberty
 
+First Kaggle competition. The task is to predict a transformed count
+of hazards or pre-existing damages using a dataset with anonymized
+data.  I wrote a report explaining my journey (steps)
+[here](https://github.com/leandroohf/Public_Liberty_Mutual_Group_Property_Inspection_Prediction)
+    
 # Virtual Eye (VEye)
 
 Project developed during my MSc. I developed a computational framework
