@@ -6,10 +6,24 @@ permalink: /projects/
 
 # Speaker recognition
 
+
 Automatic speaker recognition project aims to recognize individual
 people (verification task) in a data base from their voices. I worked
 on the machine learning and also on the preprocessing voice separation
-algorithms.
+algorithms. The figures bellow illustrates the input audio where there
+are two channels. One channel is called remote channel and it has the
+voice of the local operator and the voice of the speaker that we are
+interested. The other channel called local channel has only voice of
+the operator.  I developed an algorithm to extract the operators voice
+of the remote channel and remove silence on this channel. The
+algorithm is inspired by autocorrelation properties of the random
+signal.
+
+<img src="{{ site.baseurl }}/images/voice_signal_1.png" alt="Input signal" width="300" height="300">
+
+The figure bellows shows the expected output.
+
+<img src="{{ site.baseurl }}/images/voice_signal_output.png" alt="Pre-processed signal with the voice of the desired speaker and without silence" width="300" height="300">
 
 Developed machine learning (Bayesian classifier) and pre-processing
 voice separation, and silence removal algorithms (Matlab) for
