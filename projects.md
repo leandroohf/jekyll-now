@@ -23,7 +23,7 @@ signal.
 
 The figure bellows shows the expected output.
 
-<img src="{{ site.baseurl }}/images/voice_signal_output.png" alt="Pre-processed signal with the voice of the desired speaker and without silence" width="300" height="300">
+<img src="{{ site.baseurl }}/images/voice_signal_output.png" alt="Pre-processed signal with the voice of the desired speaker and without silence" width="300" height="150">
 
 Developed machine learning (Bayesian classifier) and pre-processing
 voice separation, and silence removal algorithms (Matlab) for
