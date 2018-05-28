@@ -4,6 +4,10 @@ title: Projects
 permalink: /projects/
 ---
 
+In this page there are examples of machine learning projects and
+predictive models that I worked with during my career in different
+companies.
+
 # Speaker recognition
 
 
@@ -16,8 +20,8 @@ voice of the local operator and the voice of the speaker that we are
 interested. The other channel called local channel has only voice of
 the operator.  I developed an algorithm to extract the operators voice
 of the remote channel and remove silence on this channel. The
-algorithm is inspired by autocorrelation properties of the random
-signal.
+algorithm utilizes the autocorrelation properties of random signal in
+order ofdo this task.
 
 <img src="{{ site.baseurl }}/images/voice_signal_1.png" alt="Input signal" width="300" height="300">
 
@@ -80,7 +84,7 @@ data.  I wrote a report explaining my journey (steps)
 Project developed during my MSc. I developed a computational framework
 in C++ capable to reproduce the optical properties and physiological
 phenomena of the human visual system. To accomplish that, I worked by
-manipulating 3d meshes using algorithms such as "door-in doo-out",
+manipulating 3d meshes using algorithms such as "door-in door-out",
 developed realistic ray traces algorithms and schematics models of the
 human eye was built and in addition in-vivo data obtained from corneal
 topography machine was introduced in these models allowing the
