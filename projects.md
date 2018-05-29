@@ -48,7 +48,6 @@ speech signature of the speaker and therefore make harder to verify
 the identity of the speaker.
 
 
-
 # Crop Recognition and Crop date determination
 
 Crop Recognition and Automatic Determination of the Planting Date
@@ -104,7 +103,7 @@ developed realistic ray traces algorithms and schematics models of the
 human eye was built and in addition in-vivo data obtained from corneal
 topography machine was introduced in these models allowing the
 framework to determine optical properties of real cornea's topologies
-such as dipotry power, high order aberrations using Zernike’s
+such as dioptric power, high order aberrations using Zernike’s
 polynomials and Point spread function (PSF) using Fourier
 transform. The obtained results agree with related work in literature
 and simulations with in-vivo data are according with the results
@@ -123,7 +122,8 @@ algorithm is used to form a retinal image of the object in the scene
 
 The next picture is the image formed in the retina of the schematic
 eye model where the in-vivo cornea has **ceratocone** and health
-cornea.
+cornea. The orientation of the images was corrected for better
+visualization since the real image is inverted in the retina.
 
 <img src="{{ site.baseurl }}/images/lena_normal.png" alt="Lena normal" width="200" height="200">
 
