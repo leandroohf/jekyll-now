@@ -26,7 +26,7 @@ order to perform this task.
 <img src="{{ site.baseurl }}/images/voice_signal_1.png" alt="Input signal" width="300" height="300">
 
 <audio controls>
-<source src="data/lm128_dec_rep1_preprocessed.wav" type="audio/wav">
+<source src="{{ site.baseurl }}/data/lm128_dec_rep1_preprocessed.wav" type="audio/wav">
 Raw data input with silence and two speaker
 </audio>
 
@@ -36,7 +36,7 @@ The figure bellows shows the expected output.
 <img src="{{ site.baseurl }}/images/voice_signal_output.png" alt="Pre-processed signal with the voice of the desired speaker and without silence" width="300" height="150">
 
 <audio controls>
-<source src="data/lm128_dec_rep3.wav" type="audio/wav">
+<source src="{{ site.baseurl }}/data/lm128_dec_rep3.wav" type="audio/wav">
 Raw data input with silence and two speaker
 </audio>
 
