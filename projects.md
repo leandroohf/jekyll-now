@@ -41,7 +41,7 @@ Pre-processed output
 
 The **MFCC** (Mel frequency cepstrum coefficients) features was
 extract from the preprocessed audio. A *Bayesian classifier* was built
-with these features and a **GMM** (Gaussian Mixture Models). One of
+with a **GMM** (Gaussian Mixture Models) and these features. One of
 the major challenges of this project are the fact that different
 microphones, noise, channel transmission and environment change the
 speech signature of the speaker and therefore make harder to verify
