@@ -39,10 +39,15 @@ The figure bellows shows the expected output.
 Pre-processed output
 </audio>
 
-Developed machine learning (Bayesian classifier) and pre-processing
-voice separation, and silence removal algorithms (Matlab) for
-Automatic Speaker Recognition (verification task) project that aims to
-recognize people by voice. The project was sold to Start-up
+The **MFCC** (Mel frequency cepstrum coefficients) features was
+extract from the preprocessed audio. A *Bayesian classifier* was built
+with these features and a **GMM** (Gaussian Mixture Models). One of
+the major challenges of this project are the fact that different
+microphones, noise, channel transmission and environment change the
+speech signature of the speaker and therefore make harder to verify
+the identity of the speaker.
+
+
 
 # Crop Recognition and Crop date determination
 
