@@ -40,13 +40,12 @@ Pre-processed output
 </audio>
 
 The **MFCC** (Mel frequency cepstrum coefficients) features was
-extract from the preprocessed audio. A *Bayesian classifier* was built
-with a **GMM** (Gaussian Mixture Models) and these features. One of
-the major challenges of this project are the fact that different
+extract from the preprocessed audio. A **Bayesian classifier** was
+built with a **GMM** (Gaussian Mixture Models) and these features. One
+of the major challenges of this project are the fact that different
 microphones, noise, channel transmission and environment change the
 speech signature of the speaker and therefore make harder to verify
 the identity of the speaker.
-
 
 # Crop Recognition and Crop date determination
 
@@ -98,23 +97,23 @@ data.  I wrote a report explaining my journey (steps)
 Project developed during my MSc. I developed a computational framework
 in C++ capable to reproduce the optical properties and physiological
 phenomena of the human visual system. To accomplish that, I worked by
-manipulating 3d meshes using algorithms such as "door-in door-out",
-developed realistic ray traces algorithms and schematics models of the
-human eye was built and in addition in-vivo data obtained from corneal
-topography machine was introduced in these models allowing the
-framework to determine optical properties of real cornea's topologies
-such as dioptric power, high order aberrations using Zernike’s
-polynomials and Point spread function (PSF) using Fourier
-transform. The obtained results agree with related work in literature
-and simulations with in-vivo data are according with the results
-produced by a commercial wave-front device.
+manipulating 3d meshes implementing algorithms such as **"door-in
+door-out"**, developed realistic ray traces algorithms and schematics
+models of the human eye was built and in addition in-vivo data
+obtained from corneal topography machine was introduced in these
+models allowing the framework to determine optical properties of real
+cornea's topologies such as dioptric power, high order aberrations
+using **Zernike’s polynomials** and Point spread function (**PSF**)
+using **Fourier transform**. The obtained results agree with related
+work in literature and simulations with in-vivo data are according
+with the results produced by a commercial wave-front device.
 
 You can find my thesis
 [here.](http://www.teses.usp.br/teses/disponiveis/55/55134/tde-09052008-161636/en.php)
 
-The images below illustrate VEye's simulation where ray trace
+The images below is indeed a VEye's simulation where ray trace
 algorithm is used to form a retinal image of the object in the scene
-(Lena's image) in a schematic eye model.
+(Lena's image) in the Gullstrand-LeGrand schematic eye model.
 
 <img src="{{ site.baseurl }}/images/proj_cone_a.png" alt="Virtual eye: ray trace" width="300" height="300">
 
