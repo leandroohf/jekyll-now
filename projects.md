@@ -8,8 +8,9 @@ In this page there are examples of machine learning projects and
 predictive models that I worked with during my career in different
 companies.
 
-# Speaker recognition
+**WIP**
 
+# Speaker recognition
 
 Automatic speaker recognition project aims to recognize individual
 people (verification task) in a data base from their voices. I worked
@@ -41,18 +42,30 @@ Pre-processed output
 
 The **MFCC** (Mel frequency cepstrum coefficients) features was
 extract from the preprocessed audio. A **Bayesian classifier** was
-built with a **GMM** (Gaussian Mixture Models) and these features. One
-of the major challenges of this project are the fact that different
-microphones, noise, channel transmission and environment change the
-speech signature of the speaker and therefore make harder to verify
-the identity of the speaker.
+built with a **GMM** (Gaussian Mixture Models) and these features.
+
+Although the algorithm works for independent text verification, a high
+performance was reached with prompt text, where the speakers answer
+questions asked to them by one operator. The performance of 95% (TPR =
+TNR = 0.95) was achieved when the speaker utilizes the same physical
+audio system that he/she used during the enrollment phase where its
+model was trained. One of the major challenges of this project are the
+fact that different microphones, noise, channel transmission and
+environment change the speech signature of the speaker and therefore
+make harder to verify the identity of the speaker. Under this
+situation, the performance dropped to 90%, but in this situation only
+the voices of 3 different speakers were used to measure this
+performance and more data is necessary to assess the quality of the
+algorithms under this situation.
+
 
 # Crop Recognition and Crop date determination
 
+
 Crop Recognition and Automatic Determination of the Planting Date
 project (developed in **IDL**) which analyzes satellite images in
-order to determine planting dates and the crops planted in producing
-regions.
+order to determine planting dates and the crop type planted in the
+producing regions.
 
 # Wrinkle Analysis
 
