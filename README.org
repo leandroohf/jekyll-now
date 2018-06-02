@@ -4,9 +4,9 @@
   GitHub pages written using Jekyll static site genereator
 
   Work in  progress *WIP*
-
+  
   https://leandroohf.github.io/
-
+  
 * Automated system
 ** Run the jekyll locally for development
 
@@ -16,7 +16,7 @@
    devo perdido algum file de configuracao. Revre isto depois
 
    #+begin_src sh
-     GIT_HUB ~/Documents/leandroohf.github.io/
+     GIT_HUB ~/Documents/leandro/leandroohf.github.io/
      cd $GITHB_PAGE
 
      # Duplicate your _config.yml and call it _config_dev.yml.
@@ -30,3 +30,4 @@
 
    #+end_src
 
+   http://127.0.0.1:4000/
