@@ -12,8 +12,6 @@ companies.
 Also you are more than welcome to explore my [github repo](https://github.com/leandroohf): [GMM](https://github.com/leandroohf/GMM/blob/master/intro_to_gmm_&_em.ipynb), 
 [Fisher's LDA](https://github.com/leandroohf/LDA/blob/master/intro_fishers_lda.ipynb), [LDA](https://github.com/leandroohf/LDA/blob/master/intro_lda.ipynb), [EDA STart kit](https://github.com/leandroohf/R_EDA_start_kit) and etc.
 
-**WIP**
-
 # Speaker recognition
 
 Automatic speaker recognition project aims to recognize individual
@@ -65,6 +63,7 @@ algorithms under this situation.
 
 # Crop Recognition and Crop date determination
 
+**WIP**
 
 Crop Recognition and Automatic Determination of the Planting Date
 project (developed in **IDL**) which analyzes satellite images in
@@ -72,6 +71,8 @@ order to determine planting dates and the crop type planted in the
 producing regions.
 
 # Wrinkle Analysis
+
+**WIP**
 
 I developed an image processing algorithm (**C, OpenCv**)to extract
 facial wrinkles. A score was attributed to the wrinkles and these data
@@ -83,6 +84,8 @@ age.
 
 # Magnetic noise attenuation system
 
+**WIP**
+
 Magnetic noise attenuation system: In this project, I designed a
 compensation coil in order to reduce magnetic noise in magnetic
 resonance scanner room. Also, I worked on the implementation of the
@@ -90,7 +93,7 @@ attenuation algorithm (C) deployed in **DSPIC**.
 
 # RAoP
 
-**This is a work in progress**
+**WIP**
 
 In this project data from online community Random Act of Pizza
 ([RAoP](https://www.reddit.com/r/Random_Acts_Of_Pizza/)) forum was
